@@ -1,2 +1,2 @@
-# HelloWorld-SonarCloud
-V Niranjan, Bengaluru, KAR
+# HelloWorld
+V Niranjan, Bengaluru, KARNATAKA
