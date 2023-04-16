@@ -1,2 +1,2 @@
 # HelloWorld-SonarCloud
-V Niranjan, Bangalore
+V Niranjan, Bengaluru
