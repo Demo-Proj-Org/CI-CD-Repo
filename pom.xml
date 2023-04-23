@@ -37,6 +37,20 @@
 </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Server snapshots</name>
+        <url>http://desktop-eurd7d7:8081/artifactory/m-libs-snapshot-local</url>
+    </snapshotRepository>
+  <repository>
+        <id>central</id>
+        <name>Server-releases</name>
+        <url>http://desktop-eurd7d7:8081/artifactory/m-libs-release-local</url>
+    </repository>
+</distributionManagement>
+
+  
   <build>
     <finalName>HelloWorld-SonarCloud</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
