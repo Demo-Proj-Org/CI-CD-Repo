@@ -85,7 +85,8 @@
           <version>2.8.2</version>
         </plugin>
       </plugins>
-    </pluginManagement>
+      
     <finalName>HelloWorld-DevOps</finalName>
+    </pluginManagement>
   </build>
 </project>
