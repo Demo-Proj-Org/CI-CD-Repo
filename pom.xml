@@ -86,5 +86,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <finalName>HelloWorld-DevOps</finalName>
   </build>
 </project>
