@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.demo.sc</groupId>
-  <artifactId>HelloWorld-SonarCloud</artifactId>
+  <groupId>HW</groupId>
+  <artifactId>HelloWorld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -40,19 +40,19 @@
   <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>Server snapshots</name>
-        <url>http://desktop-eurd7d7:8081/artifactory/m-libs-snapshot-local</url>
+        <name>a0nvhkxoe5khr-artifactory-primary-0-snapshots</name>
+        <url>https://vasuniranjan.jfrog.io/artifactory/m-libs-snapshot-local</url>
     </snapshotRepository>
-  <repository>
+   <repository>
         <id>central</id>
-        <name>Server-releases</name>
-        <url>http://desktop-eurd7d7:8081/artifactory/m-libs-release-local</url>
+        <name>a0nvhkxoe5khr-artifactory-primary-0-releases</name>
+        <url>https://vasuniranjan.jfrog.io/artifactory/m-libs-release-local</url>
     </repository>
 </distributionManagement>
 
   
   <build>
-    <finalName>HelloWorld-SonarCloud</finalName>
+    <finalName>HelloWorld-DevOps</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
