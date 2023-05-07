@@ -38,11 +38,11 @@
   </dependencies>
 
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>a0r7v18cbi0el-artifactory-primary-0-releases</name>
-        <url>https://vniranjan122503.jfrog.io/artifactory/libs-release</url>
-    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0r7v18cbi0el-artifactory-primary-0-snapshots</name>
+        <url>https://vniranjan122503.jfrog.io/artifactory/libs-snapshot</url>
+    </snapshotRepository>
    <repository>
         <id>central</id>
         <name>a0r7v18cbi0el-artifactory-primary-0-releases</name>
