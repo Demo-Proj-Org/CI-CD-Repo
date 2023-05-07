@@ -38,15 +38,15 @@
   </dependencies>
 
   <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0nvhkxoe5khr-artifactory-primary-0-snapshots</name>
-        <url>https://vasuniranjan.jfrog.io/artifactory/m-libs-snapshot-local</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>a0r7v18cbi0el-artifactory-primary-0-releases</name>
+        <url>https://vniranjan122503.jfrog.io/artifactory/libs-release</url>
+    </repository>
    <repository>
         <id>central</id>
-        <name>a0nvhkxoe5khr-artifactory-primary-0-releases</name>
-        <url>https://vasuniranjan.jfrog.io/artifactory/m-libs-release-local</url>
+        <name>a0r7v18cbi0el-artifactory-primary-0-releases</name>
+        <url>https://vniranjan122503.jfrog.io/artifactory/libs-release</url>
     </repository>
 </distributionManagement>
 
